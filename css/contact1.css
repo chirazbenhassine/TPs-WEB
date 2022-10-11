@@ -1,0 +1,36 @@
+body,html{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+label{
+font-weight: bold;
+}
+label.fe {
+    color: red;
+}
+.salmon {
+    height:	40px;
+    background-color: #f5f7fa;
+    
+
+}
+.darksalmon {
+    
+    background-color:  #568aea;
+    height: 600px;
+    
+
+}
+
+  .bg{ /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+ 

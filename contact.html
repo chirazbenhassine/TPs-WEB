@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Home </title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/contact1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script type="text/javascript" src="./js/contact.js"> </script>
+</head>
+
+<body>
+    <div class="container-fluid salmon ">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="nav-item">
+                <a href="./paragraphe.html" class="btn btn-primary nav-link active">
+                    <i class="bi bi-list"></i> Menu local
+                </a>
+            </li>
+            <li role="presentation" class="nav-item">
+                <a href="https://passeport.dauphine.fr/" class="btn btn-primary nav-link">
+                    <i class="bi bi-box-arrow-up-right"></i> Passeport Dauphine
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid darksalmon bg">
+        <form>
+            <div class="form-group row mb-5">
+                <div class="col-sm-4">
+                    <label class="fs-3" for="fname">Name:</label>
+                    <input class="form-control form-control-lg" type="text" id="pID" name="fname" value="NOM" size="10">
+                </div>
+                <div class="col-sm-4">
+                    <label class="fs-3" for="mname">Middle:</label>
+                    <input class="form-control form-control-lg" type="text" id="mname" name="mname" size="10"
+                        placeholder="Middle Name">
+                </div>
+                <div class="col-sm-4">
+                    <label class="fs-3" for="lname">Last name:</label>
+                    <input class="form-control form-control-lg" type="text" id="lname" name="lname" size="10"
+                        placeholder="Last Name ">
+                </div>
+            </div>
+            <div class="mb-5">
+                <div class="form-check form-check-inline">
+                    <label class="fs-3" class="form-check-label" for="gender"> Male </label>
+                    <input class="form-check-input " type="radio" id="male" name="fav_language" value="Male" size="10">
+                </div>
+                <div class="form-check form-check-inline">
+                    <label class="fs-3" class="form-check-label" for="gender"> Female </label>
+                    <input class="form-check-input " type="radio" id="female" name="fav_language" value="Female"
+                        size="10">
+                </div>
+            </div>
+            <div class="form-group row mb-5">
+                <div class="col-sm-6">
+                    <label class="fs-3" for="fp">
+                        <i class="bi bi-telephone-fill"></i> Phone</label>
+                    <input class="form-control form-control-lg" type="text" id="phone" name="phone"
+                        placeholder=" Enter Your Number Phone">
+                </div>
+                <div class="col-sm-6">
+                    <label class="fs-3" class="fe" for="femail">
+                        <i class="bi bi-envelope-fill"></i> Email </label>
+                    <input class="form-control form-control-lg" type="text" id="email" name="email"
+                        placeholder="name@gmail.com">
+                </div>
+            </div>
+            <div class="form-check form-check-inline mb-5">
+                <label class="fs-3" class="form-check-label" for="fc">
+                    <i class="bi bi-person-lines-fill"> </i> Contact ?
+                </label>
+                <input class="form-check-input" type="checkbox" id="contact" name="contact" value="contact">
+            </div>
+            <div class="row mb-5">
+                <div class="col-sm-2">
+                    <button class="btn btn-success btn-lg" type="button">
+                        <i class="bi bi-check-square"></i> Soumettre
+                    </button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-warning  btn-lg" type="button">
+                        <i class="bi bi-arrow-clockwise"></i> Remettre àzéro
+                    </button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-light btn-lg" type="button" onclick="change();"><i
+                            class="bi bi-filetype-js"></i>
+                        Appel javascript</button>
+                </div>
+            </div>
+        </form>
+        <img src="./img/Dauphine_new.png" class="rounded mx-auto d-block img-fluid " alt="dauphine">
+    </div>
+</body>
+</html>
